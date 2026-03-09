@@ -14,7 +14,7 @@ pkgs.mkShell {
     CYAN='\e[1;36m'
     RESET='\e[0m'
 
-    export PS1="\n\[$CYAN\]SHELLED{\[$RED\][ASSEMBLY]\[$GREEN\]\u\[$RESET\]:\[$BLUE\]\w\[$CYAN\]}\[$RESET\] \$ "
+    export PS1="\n\[$CYAN\]SHELLED{\[$RED\][ASSEMBLY]\[$GREEN\]\u\[$RESET\]:\[$BLUE\]\w\[$CYAN\]}\[$RESET\]\$ "
 
     echo -e " \n $CYAN>> Assembly Environment Ready$RESET"
     echo -e " Tools loaded: $GREEN binutils, nasm, gdb $RESET \n"
